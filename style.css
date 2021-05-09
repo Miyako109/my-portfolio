@@ -1,0 +1,130 @@
+* {
+  z-index: 0;
+  position: relative;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background: black;
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+#marina {
+  position: absolute;
+  z-index: 0;
+  object-fit: cover;
+  opacity: 65%;
+}
+
+.hedder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  font-size: 150%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.his {
+  font-size: 150%;
+  font-style: oblique;
+  color: rgb(0, 247, 255);
+}
+
+.apo {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #ffffffb4; /*ボタン色*/
+  color: rgb(56, 53, 53);
+  border-bottom: solid 4px #aab2ca;
+  border-radius: 3px;
+}
+.apo:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  border-bottom: none; /*線を消す*/
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.title {
+  text-align: center;
+  font-size: 250%;
+  font-style: oblique;
+
+}
+.subtitle {
+  margin-top: 8rem;
+  font-size: 180%;
+}
+
+.input {
+  padding: 10px 15px; /*ボックスを大きくする*/
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 5px solid #ddd; /*枠線*/
+  box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+.search {
+  display: inline-block;
+  padding: 2px 2rem;
+  text-decoration: none;
+  background: #ffffffb4; /*ボタン色*/
+  color: rgb(99, 82, 82);
+  border-bottom: solid 4px #aab2ca;
+  border-radius: 3px;
+}
+.search:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  border-bottom: none; /*線を消す*/
+}
+.fooder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 150%;
+}
+#count-button {
+  display: inline-block;
+  padding: 2px 5px;
+  text-decoration: none;
+  background: #ffffffb4; /*ボタン色*/
+  color: rgb(56, 53, 53);
+  border-bottom: solid 4px #aab2ca;
+  border-radius: 10px;
+}
+#count-button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+  border-bottom: none; /*線を消す*/
+}
+
+#place {
+  background: #ffffffb4;
+  border-radius: 30px;
+}
